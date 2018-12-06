@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sstuff\bitvec.cpp" />
+    <ClCompile Include="sstuff\boolvec.cpp" />
+    <ClCompile Include="sstuff\datafile.cpp" />
+    <ClCompile Include="sstuff\fileio.cpp" />
+    <ClCompile Include="sstuff\findfile.cpp" />
+    <ClCompile Include="sstuff\geom_alg.cpp" />
+    <ClCompile Include="sstuff\interp.cpp" />
+    <ClCompile Include="sstuff\intvec.cpp" />
+    <ClCompile Include="sstuff\ptypes\pasync.cxx" />
+    <ClCompile Include="sstuff\ptypes\patomic.cxx" />
+    <ClCompile Include="sstuff\ptypes\pexcept.cxx" />
+    <ClCompile Include="sstuff\ptypes\pfatal.cxx" />
+    <ClCompile Include="sstuff\ptypes\pmem.cxx" />
+    <ClCompile Include="sstuff\ptypes\pmsgq.cxx" />
+    <ClCompile Include="sstuff\ptypes\psemaphore.cxx" />
+    <ClCompile Include="sstuff\ptypes\pstring.cxx" />
+    <ClCompile Include="sstuff\ptypes\pthread.cxx" />
+    <ClCompile Include="sstuff\ptypes\ptimedsem.cxx" />
+    <ClCompile Include="sstuff\ptypes\punknown.cxx" />
+    <ClCompile Include="sstuff\read_txt.cpp" />
+    <ClCompile Include="sstuff\rnd.cpp" />
+    <ClCompile Include="sstuff\shortvec.cpp" />
+    <ClCompile Include="sstuff\sizetvec.cpp" />
+    <ClCompile Include="sstuff\sstuff.cpp" />
+    <ClCompile Include="sstuff\stepFunc.cpp" />
+    <ClCompile Include="sstuff\strvec.cpp" />
+    <ClCompile Include="sstuff\threads.cpp" />
+    <ClCompile Include="sstuff\vec.cpp" />
+    <ClCompile Include="sstuff\vec_alg.cpp" />
+    <ClCompile Include="surfit\area.cpp" />
+    <ClCompile Include="surfit\area_internal.cpp" />
+    <ClCompile Include="surfit\area_tcl.cpp" />
+    <ClCompile Include="surfit\cmofs.cpp" />
+    <ClCompile Include="surfit\cntr.cpp" />
+    <ClCompile Include="surfit\cntr_internal.cpp" />
+    <ClCompile Include="surfit\cntr_tcl.cpp" />
+    <ClCompile Include="surfit\cntr_trace.cpp" />
+    <ClCompile Include="surfit\colorscale.cpp" />
+    <ClCompile Include="surfit\creeps\CreEPS.cpp" />
+    <ClCompile Include="surfit\curv.cpp" />
+    <ClCompile Include="surfit\curvs_tcl.cpp" />
+    <ClCompile Include="surfit\curv_internal.cpp" />
+    <ClCompile Include="surfit\curv_tcl.cpp" />
+    <ClCompile Include="surfit\data.cpp" />
+    <ClCompile Include="surfit\data_manager.cpp" />
+    <ClCompile Include="surfit\free_elements.cpp" />
+    <ClCompile Include="surfit\functional.cpp" />
+    <ClCompile Include="surfit\f_area.cpp" />
+    <ClCompile Include="surfit\f_area_hist.cpp" />
+    <ClCompile Include="surfit\f_area_ineq.cpp" />
+    <ClCompile Include="surfit\f_area_mean.cpp" />
+    <ClCompile Include="surfit\f_area_surf.cpp" />
+    <ClCompile Include="surfit\f_area_surf_ineq.cpp" />
+    <ClCompile Include="surfit\f_area_wmean.cpp" />
+    <ClCompile Include="surfit\f_cntr.cpp" />
+    <ClCompile Include="surfit\f_cntr_ineq.cpp" />
+    <ClCompile Include="surfit\f_cntr_smooth.cpp" />
+    <ClCompile Include="surfit\f_completer.cpp" />
+    <ClCompile Include="surfit\f_curv.cpp" />
+    <ClCompile Include="surfit\f_curv_ineq.cpp" />
+    <ClCompile Include="surfit\f_curv_surf.cpp" />
+    <ClCompile Include="surfit\f_curv_surf_ineq.cpp" />
+    <ClCompile Include="surfit\f_fault.cpp" />
+    <ClCompile Include="surfit\f_hist.cpp" />
+    <ClCompile Include="surfit\f_ineq.cpp" />
+    <ClCompile Include="surfit\f_mask.cpp" />
+    <ClCompile Include="surfit\f_mask_ineq.cpp" />
+    <ClCompile Include="surfit\f_mask_mean.cpp" />
+    <ClCompile Include="surfit\f_mask_surf.cpp" />
+    <ClCompile Include="surfit\f_mask_surf_ineq.cpp" />
+    <ClCompile Include="surfit\f_mask_wmean.cpp" />
+    <ClCompile Include="surfit\f_mean.cpp" />
+    <ClCompile Include="surfit\f_method.cpp" />
+    <ClCompile Include="surfit\f_points.cpp" />
+    <ClCompile Include="surfit\f_points_ineq.cpp" />
+    <ClCompile Include="surfit\f_points_tcl.cpp" />
+    <ClCompile Include="surfit\f_surf.cpp" />
+    <ClCompile Include="surfit\f_surf_ineq.cpp" />
+    <ClCompile Include="surfit\f_trend.cpp" />
+    <ClCompile Include="surfit\f_triangulate.cpp" />
+    <ClCompile Include="surfit\f_value.cpp" />
+    <ClCompile Include="surfit\f_wmean.cpp" />
+    <ClCompile Include="surfit\grid.cpp" />
+    <ClCompile Include="surfit\grid_internal.cpp" />
+    <ClCompile Include="surfit\grid_line.cpp" />
+    <ClCompile Include="surfit\grid_line_internal.cpp" />
+    <ClCompile Include="surfit\grid_line_user.cpp" />
+    <ClCompile Include="surfit\grid_tcl.cpp" />
+    <ClCompile Include="surfit\grid_user.cpp" />
+    <ClCompile Include="surfit\hist.cpp" />
+    <ClCompile Include="surfit\hist_internal.cpp" />
+    <ClCompile Include="surfit\hist_tcl.cpp" />
+    <ClCompile Include="surfit\license.cpp" />
+    <ClCompile Include="surfit\mask.cpp" />
+    <ClCompile Include="surfit\mask_internal.cpp" />
+    <ClCompile Include="surfit\mask_tcl.cpp" />
+    <ClCompile Include="surfit\matlab.cpp" />
+    <ClCompile Include="surfit\matr.cpp" />
+    <ClCompile Include="surfit\matrD1.cpp" />
+    <ClCompile Include="surfit\matrD1_aniso.cpp" />
+    <ClCompile Include="surfit\matrD1_rect.cpp" />
+    <ClCompile Include="surfit\matrD2.cpp" />
+    <ClCompile Include="surfit\matrD2_aniso.cpp" />
+    <ClCompile Include="surfit\matrD2_rect.cpp" />
+    <ClCompile Include="surfit\matr_cntrs.cpp" />
+    <ClCompile Include="surfit\matr_diag.cpp" />
+    <ClCompile Include="surfit\matr_eye.cpp" />
+    <ClCompile Include="surfit\matr_onesrow.cpp" />
+    <ClCompile Include="surfit\mrf.cpp" />
+    <ClCompile Include="surfit\others_tcl.cpp" />
+    <ClCompile Include="surfit\pnts_internal.cpp" />
+    <ClCompile Include="surfit\pnts_tcl.cpp" />
+    <ClCompile Include="surfit\points.cpp" />
+    <ClCompile Include="surfit\shapelib\dbfopen.c" />
+    <ClCompile Include="surfit\shapelib\shpopen.c" />
+    <ClCompile Include="surfit\solvers.cpp" />
+    <ClCompile Include="surfit\solvers\CG.cpp" />
+    <ClCompile Include="surfit\solvers\J.cpp" />
+    <ClCompile Include="surfit\solvers\JCG.cpp" />
+    <ClCompile Include="surfit\solvers\RF.cpp" />
+    <ClCompile Include="surfit\solvers\SSOR.cpp" />
+    <ClCompile Include="surfit\sort_alg.cpp" />
+    <ClCompile Include="surfit\surf.cpp" />
+    <ClCompile Include="surfit\surfit.cpp" />
+    <ClCompile Include="surfit\surfs_tcl.cpp" />
+    <ClCompile Include="surfit\surf_internal.cpp" />
+    <ClCompile Include="surfit\surf_tcl.cpp" />
+    <ClCompile Include="surfit\triangle.cpp" />
+    <ClCompile Include="surfit\variables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sstuff\bitvec.h" />
+    <ClInclude Include="sstuff\boolvec.h" />
+    <ClInclude Include="sstuff\byteswap_alg.h" />
+    <ClInclude Include="sstuff\datafile.h" />
+    <ClInclude Include="sstuff\fileio.h" />
+    <ClInclude Include="sstuff\findfile.h" />
+    <ClInclude Include="sstuff\geom_alg.h" />
+    <ClInclude Include="sstuff\interp.h" />
+    <ClInclude Include="sstuff\intvec.h" />
+    <ClInclude Include="sstuff\ptypes\pasync.h" />
+    <ClInclude Include="sstuff\ptypes\pport.h" />
+    <ClInclude Include="sstuff\ptypes\ptypes.h" />
+    <ClInclude Include="sstuff\read_txt.h" />
+    <ClInclude Include="sstuff\real.h" />
+    <ClInclude Include="sstuff\rnd.h" />
+    <ClInclude Include="sstuff\shortvec.h" />
+    <ClInclude Include="sstuff\sizetvec.h" />
+    <ClInclude Include="sstuff\sstuff.h" />
+    <ClInclude Include="sstuff\sstuff_ie.h" />
+    <ClInclude Include="sstuff\stepFunc.h" />
+    <ClInclude Include="sstuff\strvec.h" />
+    <ClInclude Include="sstuff\threads.h" />
+    <ClInclude Include="sstuff\vec.h" />
+    <ClInclude Include="sstuff\vec_alg.h" />
+    <ClInclude Include="surfit\area.h" />
+    <ClInclude Include="surfit\area_internal.h" />
+    <ClInclude Include="surfit\area_tcl.h" />
+    <ClInclude Include="surfit\cmofs.h" />
+    <ClInclude Include="surfit\cntr.h" />
+    <ClInclude Include="surfit\cntr_internal.h" />
+    <ClInclude Include="surfit\cntr_tcl.h" />
+    <ClInclude Include="surfit\cntr_trace.h" />
+    <ClInclude Include="surfit\colorscale.h" />
+    <ClInclude Include="surfit\creeps\CreEPS.h" />
+    <ClInclude Include="surfit\curv.h" />
+    <ClInclude Include="surfit\curvs_tcl.h" />
+    <ClInclude Include="surfit\curv_internal.h" />
+    <ClInclude Include="surfit\curv_tcl.h" />
+    <ClInclude Include="surfit\data_manager.h" />
+    <ClInclude Include="surfit\free_elements.h" />
+    <ClInclude Include="surfit\functional.h" />
+    <ClInclude Include="surfit\f_area.h" />
+    <ClInclude Include="surfit\f_area_hist.h" />
+    <ClInclude Include="surfit\f_area_ineq.h" />
+    <ClInclude Include="surfit\f_area_mean.h" />
+    <ClInclude Include="surfit\f_area_surf.h" />
+    <ClInclude Include="surfit\f_area_surf_ineq.h" />
+    <ClInclude Include="surfit\f_area_wmean.h" />
+    <ClInclude Include="surfit\f_cntr.h" />
+    <ClInclude Include="surfit\f_cntr_ineq.h" />
+    <ClInclude Include="surfit\f_cntr_smooth.h" />
+    <ClInclude Include="surfit\f_completer.h" />
+    <ClInclude Include="surfit\f_curv.h" />
+    <ClInclude Include="surfit\f_curv_ineq.h" />
+    <ClInclude Include="surfit\f_curv_surf.h" />
+    <ClInclude Include="surfit\f_curv_surf_ineq.h" />
+    <ClInclude Include="surfit\f_fault.h" />
+    <ClInclude Include="surfit\f_hist.h" />
+    <ClInclude Include="surfit\f_ineq.h" />
+    <ClInclude Include="surfit\f_mask.h" />
+    <ClInclude Include="surfit\f_mask_ineq.h" />
+    <ClInclude Include="surfit\f_mask_mean.h" />
+    <ClInclude Include="surfit\f_mask_surf.h" />
+    <ClInclude Include="surfit\f_mask_surf_ineq.h" />
+    <ClInclude Include="surfit\f_mask_wmean.h" />
+    <ClInclude Include="surfit\f_mean.h" />
+    <ClInclude Include="surfit\f_method.h" />
+    <ClInclude Include="surfit\f_points.h" />
+    <ClInclude Include="surfit\f_points_ineq.h" />
+    <ClInclude Include="surfit\f_points_tcl.h" />
+    <ClInclude Include="surfit\f_surf.h" />
+    <ClInclude Include="surfit\f_surf_ineq.h" />
+    <ClInclude Include="surfit\f_trend.h" />
+    <ClInclude Include="surfit\f_triangulate.h" />
+    <ClInclude Include="surfit\f_value.h" />
+    <ClInclude Include="surfit\f_wmean.h" />
+    <ClInclude Include="surfit\grid.h" />
+    <ClInclude Include="surfit\grid_internal.h" />
+    <ClInclude Include="surfit\grid_line.h" />
+    <ClInclude Include="surfit\grid_line_internal.h" />
+    <ClInclude Include="surfit\grid_line_user.h" />
+    <ClInclude Include="surfit\grid_tcl.h" />
+    <ClInclude Include="surfit\grid_user.h" />
+    <ClInclude Include="surfit\hist.h" />
+    <ClInclude Include="surfit\hist_internal.h" />
+    <ClInclude Include="surfit\hist_tcl.h" />
+    <ClInclude Include="surfit\license.h" />
+    <ClInclude Include="surfit\mask.h" />
+    <ClInclude Include="surfit\mask_internal.h" />
+    <ClInclude Include="surfit\mask_tcl.h" />
+    <ClInclude Include="surfit\matfile.h" />
+    <ClInclude Include="surfit\matlab.h" />
+    <ClInclude Include="surfit\matr.h" />
+    <ClInclude Include="surfit\matrD1.h" />
+    <ClInclude Include="surfit\matrD1_aniso.h" />
+    <ClInclude Include="surfit\matrD2.h" />
+    <ClInclude Include="surfit\matrD2_aniso.h" />
+    <ClInclude Include="surfit\matrD_incr_ptr.h" />
+    <ClInclude Include="surfit\matr_cntrs.h" />
+    <ClInclude Include="surfit\matr_diag.h" />
+    <ClInclude Include="surfit\matr_eye.h" />
+    <ClInclude Include="surfit\matr_onesrow.h" />
+    <ClInclude Include="surfit\mrf.h" />
+    <ClInclude Include="surfit\others_tcl.h" />
+    <ClInclude Include="surfit\other_tcl.h" />
+    <ClInclude Include="surfit\pnts_internal.h" />
+    <ClInclude Include="surfit\pnts_tcl.h" />
+    <ClInclude Include="surfit\points.h" />
+    <ClInclude Include="surfit\shapelib\shapefil.h" />
+    <ClInclude Include="surfit\solvers.h" />
+    <ClInclude Include="surfit\sort_alg.h" />
+    <ClInclude Include="surfit\surf.h" />
+    <ClInclude Include="surfit\surfit.h" />
+    <ClInclude Include="surfit\surfit_data.h" />
+    <ClInclude Include="surfit\surfit_ie.h" />
+    <ClInclude Include="surfit\surfit_solvers.h" />
+    <ClInclude Include="surfit\surfit_threads.h" />
+    <ClInclude Include="surfit\surfit_wrap_ie.h" />
+    <ClInclude Include="surfit\surfs_tcl.h" />
+    <ClInclude Include="surfit\surf_internal.h" />
+    <ClInclude Include="surfit\surf_tcl.h" />
+    <ClInclude Include="surfit\triangle.h" />
+    <ClInclude Include="surfit\variables.h" />
+    <ClInclude Include="surfit\variables_internal.h" />
+    <ClInclude Include="surfit\variables_tcl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\surfit-master\surfit-master\src\config.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{121C4DD1-4253-412C-9115-A4360BEBF41D}</ProjectGuid>
+    <RootNamespace>Surfit</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;HAVE_STRING_H
+;HAVE_STDLIB_H
+;HAVE_LIBJPEG
+;HAVE_NETCDF
+;HAVE_THREADS;NO_TIMER;ANSI_DECLARATORS;_CRT_SECURE_NO_WARNINGS;_NO_CRT_STDIO_INLINE;TRILIBRARY</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

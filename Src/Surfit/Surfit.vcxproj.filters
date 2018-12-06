@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sstuff">
+      <UniqueIdentifier>{0a59b0e4-e1c6-4fde-b546-9b88c419931a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sstuff\ptypes">
+      <UniqueIdentifier>{f861fada-a7b5-428b-a397-45592ad046f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="surfit">
+      <UniqueIdentifier>{f7251851-87b4-445b-851d-d88c6ea29747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="surfit\creeps">
+      <UniqueIdentifier>{08d72b0c-b293-442a-a44e-2e701c365511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="surfit\shapelib">
+      <UniqueIdentifier>{2771e54d-1792-4dbb-8ee1-91252b887fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="surfit\solvers">
+      <UniqueIdentifier>{c175d0d6-2aed-4462-8d78-42092dcc477a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sstuff\bitvec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\boolvec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\datafile.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\fileio.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\findfile.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\geom_alg.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\interp.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\intvec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\read_txt.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\rnd.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\shortvec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\sizetvec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\sstuff.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\stepFunc.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\strvec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\threads.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\vec.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\vec_alg.cpp">
+      <Filter>sstuff</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pasync.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\patomic.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pexcept.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pfatal.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pmem.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pmsgq.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\psemaphore.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pstring.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\pthread.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\ptimedsem.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="sstuff\ptypes\punknown.cxx">
+      <Filter>sstuff\ptypes</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\area.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\area_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\area_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\cmofs.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\cntr.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\cntr_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\cntr_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\cntr_trace.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\colorscale.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\curv.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\curv_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\curv_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\curvs_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\data.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\data_manager.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area_hist.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area_mean.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area_surf.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area_surf_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_area_wmean.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_cntr.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_cntr_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_cntr_smooth.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_completer.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_curv.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_curv_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_curv_surf.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_curv_surf_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_fault.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_hist.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mask.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mask_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mask_mean.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mask_surf.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mask_surf_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mask_wmean.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_mean.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_method.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_points.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_points_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_points_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_surf.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_surf_ineq.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_trend.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_triangulate.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_value.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\f_wmean.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\free_elements.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\functional.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid_line.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid_line_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid_line_user.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\grid_user.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\hist.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\hist_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\hist_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\license.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\mask.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\mask_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\mask_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matlab.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matr.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matr_cntrs.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matr_diag.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matr_eye.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matr_onesrow.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matrD1.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matrD1_aniso.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matrD1_rect.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matrD2.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matrD2_aniso.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\matrD2_rect.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\mrf.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\others_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\pnts_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\pnts_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\points.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\solvers.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\sort_alg.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\surf.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\surf_internal.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\surf_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\surfit.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\surfs_tcl.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\triangle.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\variables.cpp">
+      <Filter>surfit</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\creeps\CreEPS.cpp">
+      <Filter>surfit\creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\shapelib\dbfopen.c">
+      <Filter>surfit\shapelib</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\shapelib\shpopen.c">
+      <Filter>surfit\shapelib</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\solvers\CG.cpp">
+      <Filter>surfit\solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\solvers\J.cpp">
+      <Filter>surfit\solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\solvers\JCG.cpp">
+      <Filter>surfit\solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\solvers\RF.cpp">
+      <Filter>surfit\solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="surfit\solvers\SSOR.cpp">
+      <Filter>surfit\solvers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sstuff\bitvec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\boolvec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\byteswap_alg.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\datafile.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\fileio.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\findfile.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\geom_alg.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\interp.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\intvec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\read_txt.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\real.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\rnd.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\shortvec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\sizetvec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\sstuff.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\sstuff_ie.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\stepFunc.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\strvec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\threads.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\vec.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\vec_alg.h">
+      <Filter>sstuff</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\ptypes\pasync.h">
+      <Filter>sstuff\ptypes</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\ptypes\pport.h">
+      <Filter>sstuff\ptypes</Filter>
+    </ClInclude>
+    <ClInclude Include="sstuff\ptypes\ptypes.h">
+      <Filter>sstuff\ptypes</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\area.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\area_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\area_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\cmofs.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\cntr.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\cntr_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\cntr_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\cntr_trace.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\colorscale.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\curv.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\curv_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\curv_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\curvs_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\data_manager.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area_hist.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area_mean.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area_surf.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area_surf_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_area_wmean.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_cntr.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_cntr_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_cntr_smooth.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_completer.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_curv.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_curv_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_curv_surf.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_curv_surf_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_fault.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_hist.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mask.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mask_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mask_mean.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mask_surf.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mask_surf_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mask_wmean.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_mean.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_method.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_points.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_points_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_points_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_surf.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_surf_ineq.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_trend.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_triangulate.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_value.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\f_wmean.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\free_elements.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\functional.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid_line.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid_line_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid_line_user.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\grid_user.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\hist.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\hist_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\hist_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\license.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\mask.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\mask_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\mask_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matfile.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matlab.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matr.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matr_cntrs.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matr_diag.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matr_eye.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matr_onesrow.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matrD_incr_ptr.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matrD1.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matrD1_aniso.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matrD2.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\matrD2_aniso.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\mrf.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\other_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\others_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\pnts_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\pnts_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\points.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\solvers.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\sort_alg.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surf.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surf_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surf_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfit.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfit_data.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfit_ie.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfit_solvers.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfit_threads.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfit_wrap_ie.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\surfs_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\triangle.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\variables.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\variables_internal.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\variables_tcl.h">
+      <Filter>surfit</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\creeps\CreEPS.h">
+      <Filter>surfit\creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="surfit\shapelib\shapefil.h">
+      <Filter>surfit\shapelib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\surfit-master\surfit-master\src\config.h" />
+  </ItemGroup>
+</Project>
